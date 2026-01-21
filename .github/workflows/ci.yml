@@ -19,7 +19,7 @@ jobs:
 
       - name: Run PHP lint
         run: |
-          php -1 index.php
+          php -l index.php
 
       - name: Run test file
         run: php index.php
